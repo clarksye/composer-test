@@ -1,0 +1,12 @@
+{
+    "name": "clarksye/composer-test",
+    "description": "Belajar PHP composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "clarksye",
+            "email": "burhanbasyri@gmail.com"
+        }
+    ],
+    "require": {}
+}
