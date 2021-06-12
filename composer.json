@@ -8,5 +8,20 @@
             "email": "burhanbasyri@gmail.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "clarksye\\" : "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/clarksye/belajar-composer-library"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "clarksye/belajar-composer-library": "2.0.0",
+        "monolog/monolog" : "2.2.0"
+    }
 }
